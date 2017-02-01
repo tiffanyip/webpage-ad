@@ -67,7 +67,7 @@ const init = function() {
     }
     // console log json object
     const data = { location, advertisments };
-    console.log(data);
+    console.log(JSON.stringify(data));
     return data;
 };
 init();
